@@ -1,0 +1,88 @@
+@charset "utf-8";
+/******************************
+ m_uc- 2015-12-15:05:33 susanzhang 创建
+*******************************/
+
+/*个人中心*/
+.u_l .num {font-size: 12px;width: 20px;height: 20px;background: #EA3F17;color: #fff;-webkit-border-radius:50%;margin-right: 5px;}
+.user_info {height: 156px;color: #fff;background:#50BECC url(../images/bg_user.jpg) 0 50% no-repeat;background-size: 100% 100%;}
+.user_info .btn_tran {color: #fff;}
+.btn_phone {border: 1px solid #DCDCDC;color: #666;background: transparent;height: 44px;}
+.btn_phone .icon_phone {margin-right: 10px;width: 22px;height: 22px;background-position: -72px -60px;}
+.user_img {width: 66px;height: 66px;display: inline-block;border-radius: 50%;overflow: hidden;}
+.icon_ac_1 {width: 24px;height: 21px;background-position: 2px -82px;margin-right: 10px;}
+.icon_ac_2 {width: 24px;height: 21px;background-position: -18px -82px;margin-right: 10px;}
+.icon_ac_3 {width: 24px;height: 21px;background-position: -39px -82px;margin-right: 10px;}
+.icon_ac_4 {width: 24px;height: 21px;background-position: -90px -82px;margin-right: 10px;}
+.icon_ac_5 {width: 24px;height: 21px;background-position: -62px -82px;margin-right: 10px;}
+.icon_ac_6 {width: 24px;height: 21px;background-position: -93px -60px;margin-right: 10px;}
+
+
+/*地址管理*/
+.address_ul {margin-bottom: -10px;}
+.address_li.cur {background: #fff;}
+.address_li.li_arrow_r:after {border-top: 2px solid #aaa;border-right: 2px solid #aaa;}
+
+/*登录注册*/
+.otherlogin{height: 80px;}
+
+/*确认订单*/
+.payway{padding:0px 15px;background:  #fff;}
+.ti{text-indent: 2em;}
+.pd{padding: 15px 0px;}
+.beizhu{height: 52px;line-height: 52px;padding-top: 0px;padding-bottom: 0px;}
+.coupon{padding:5px 15px 0px 15px;background: #fff;margin-bottom: 10px;}
+.coupon_ls li{float: left; height: 30px;line-height: 30px;display: -webkit-box;-webkit-box-align:center;margin-right: 10px;color: #666;}
+.ordertit{padding: 5px 15px;}
+/*数量*/
+.liang{width: 24px;height: 24px;border: 1px solid #ccc;-webkit-border-radius:50%;border-radius:50%;font-size: 18px; color: #f36c33;}
+.order_pd{padding: 10px 0;}
+.order_nums{min-width: 32px;display: inline-block;text-align: center;height: 32px;line-height: 32px;}
+.dmeny{min-width: 70px;text-align: end;}
+.peisong{padding: 10px 0 30px 0px;}
+
+/*用户管理*/
+.user_lp{padding:6px 15px;}
+.mt70{margin-top: 70px;}
+.user_con{color: #ff8a65;margin-right: 5px;}
+
+/*订单详情*/
+.odetail{ padding:8px 15px;background: #fff;margin-bottom: 10px; }
+.o_press{ padding:8px 15px;background: #fff; }
+.o_detail_num{min-width: 70px;text-align: start;}
+.o_detail_time{padding:8px 15px;    background: #fff;margin-bottom: 10px;}
+.youhui_ls li {float: left; height: 26px;line-height: 26px;display: -webkit-box; -webkit-box-align: center; margin-right: 10px; color: #666;}
+.oaddress{padding-left: 30px;position: relative;height: 35px;line-height: 35px;}
+.odress_tu{position: absolute;width: 25px;height: 30px;left: 0px;top:2px;}
+.ophone{padding-left: 30px;position: relative;height: 35px;line-height: 35px;}
+.ophoe_tu{position: absolute;width: 25px;height: 25px;left: 0px;top:0px;}
+.process{height: 6px;margin:0 20px;background: #fff;border: 2px solid #ccc;border-right: none; margin-bottom: 18px;margin-top: 6px;}
+.xiadan{border-right:2px solid #ccc; height:100%;position: relative;}
+.yixiadan{position: absolute;min-width: 38px;height: 25px;right: -14px;bottom: -28px;color: red; }
+.curr1 .cur1{background:#40cd89;}
+.curr2 .cur1,.curr2 .cur2{background:#40cd89;}
+.curr3 .cur1,.curr3 .cur2,.curr3 .cur3{background:#40cd89;}
+.curr4 .cur1,.curr4 .cur2,.curr4 .cur3,.curr4 .cur4{background:#40cd89;}
+
+/*我的订单*/
+.myprocess{margin-left: 0px;margin-right: 30px;}
+.myo_right{content: '\20';width: 15px;height: 15px;border-top: 2px solid #AAAAAA;border-right: 2px solid #AAAAAA;
+-webkit-transform: rotate(45deg);transform: rotate(45deg);display: block;position: absolute;right: 10px;top:40px;}
+
+/*意见反馈*/
+.reback{ padding:8px 15px 20px 15px;}
+.rb_kuan{padding:8px 15px 15px 15px;}
+.rb_input{height: 28px; padding: 0 0 0 10px;border: 2px solid #eee;width: 100%;-webkit-box-sizing: border-box;box-sizing: border-box;line-height: normal;}
+.rb_textarea {border: 2px solid #eee;padding: 8px;vertical-align: top;}
+.words{line-height: 24px;}
+
+/*关于我们*/
+.aboutimg{margin-top: 10px;margin-bottom: 5px;height: 182px;}
+.awords{line-height: 28px;margin-bottom: 8px;}
+
+/*地址管理*/
+.addlist{padding: 5px 15px;background: #fff;color: #000;margin: 8px 0px;font-size: 16px;}
+.adr_ul{}
+.adr_li{ padding:15px;background: #fff;margin-bottom: 10px;}
+.moren{width: 56px;font-size: 12px;color: #fff;border-radius: 3px;height: 28px;line-height: 28px;-webkit-box-sizing: border-box;box-sizing: border-box;text-align: center; }
+.del{width: 56px;font-size: 14px;color: #fff;border-radius: 3px;height: 28px;line-height: 28px;-webkit-box-sizing: border-box;box-sizing: border-box;text-align: center;}

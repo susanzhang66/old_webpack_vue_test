@@ -1,0 +1,70 @@
+@charset "utf-8";
+/******************************
+ m_index- 2015-12-04 18:00:20 susanzhang 创建
+*******************************/
+
+/*首页*/
+.header .u_fb{height: 100%;}
+.seltit{height: 43px;background: #fe4d3d;line-height: 43px; font-weight: 500;}
+.li_arrow_b_index:after {content:"\20";width: 12px;height: 12px;border-top: 2px solid #fff;border-right: 2px solid #fff;
+  -webkit-transform: rotate(135deg);transform: rotate(135deg);display: block;margin-top: -2px;}
+.sel{padding:0 10px; margin: 10px 0;}
+.selname{width: 72px;}
+.selecteds{ width: 80px;height: 2.5em; background: #50944a;position: relative;}
+.selcity{height: 2.5em;background: #50944a;color: #fff;width: 80px;text-align: center;line-height: 2.5em;}
+
+.index_select {width: 100%;height: 2.5em;-webkit-appearance: none;appearance: none;border: none;background: #50944a;color:  #fff;text-align: center;}/*
+.selecteds:after{content:"\20";width: 8px;height: 8px;border-top: 2px solid #fff;border-right: 2px solid #fff;-webkit-transform: rotate(135deg);transform: rotate(135deg);display: block;position: absolute;left: 70px;top:5px;}*/
+.directD{padding:0 10px; margin: 10px 0 0px;}
+.dres{ padding:5px 40px 5px 27px; position: relative; }
+.centername{ line-height: 2em;}
+.fanwei{width: 72px;}
+/*向右箭头*/
+.i_right{width: 24px;height: 24px;position: absolute;right:10px;top:50%;margin-top:-14px;}
+.i_right:after{content: '\20';width: 15px;height: 15px;border-top: 2px solid #AAAAAA;border-right: 2px solid #AAAAAA;
+-webkit-transform: rotate(45deg);transform: rotate(45deg);display: block;}
+.address{width: 45px;}
+.phonetu{width: 27px;}
+.shiju{padding:5px;background: #dddddd;}
+.phone{width: 108px;padding-left: 27px;position: relative;}
+.shijiao{padding-left: 27px;position: relative;}
+/*banner*/ 
+.banner .ui_w_100pc {display: block;}
+.slider .radius {display:block;width: 5px;height: 5px;-webkit-border-radius: 50%;border: 1px solid #fff;margin: 0 3px;}
+.slider .curr {background: #fff;}
+.slider {height: 20px;margin-top: -20px;z-index: 10;position: relative;}
+.banner img,
+.gg_goods img {background: #E3E5E8 url(../images/loading.gif) 50% 50% no-repeat;}
+
+/*鲜果列表*/
+.nav{width: 98px;position: fixed;padding-bottom: 60px;}
+.nav li{border-bottom: 1px solid #dadada;height: 36px;width: 100%;text-align: center;line-height: 36px;position: relative;color: #515151;}
+.nav li.cur{background: #fff;}
+.nav li.red .num{font-size: 10px;width: 20px;height: 20px;background: #EA3F17;color: #fff;-webkit-border-radius:50%;position: absolute;line-height: 20px;text-align: center;z-index: 1;right: 0px;top:50%;margin-top: -10px; }
+.list{padding-left: 98px;}
+.heads{ height: 36px;width: 100%; line-height: 36px;color: #fe0103;position: fixed;z-index: 3;background: #efeff4;}
+.guolist{margin-top: 1px;}
+.guolist li{ position: relative;color: #222;}
+.guolist img{width: 100%;}
+.tip{height: 47px;width: 100%;position: absolute;bottom: 0;left: 0;background: rgba(255,255,255,.5);padding:0 5px;}
+.xinxi{padding-top: 5px;width: 124px;text-overflow:ellipsis;white-space:nowrap;overflow: hidden;}
+.jjf{width: 95px;}
+.money{color: #f66c35;}
+.addnums{width: 24px;display: inline-block;text-align: center;font-size: 16px;height: 32px;line-height: 32px;}
+.sanright{content: '\20';height: 18px;width: 18px;border-top: 2px solid #ddd;border-right: 2px solid #ddd;-webkit-transform: rotate(45deg);transform: rotate(45deg);display: block; position: absolute;right: 10px;top:50%;margin-top:-27px;color: #fff;}
+.indexurl{display: block;}
+
+/*详情*/
+.detail{height: 34px;line-height: 34px;}
+.tailCon{padding:5px 15px;}
+.detailsCon {padding-bottom: 15px;}
+.detailsCon img {background: url(../images/loading.gif) 50% 50% no-repeat;min-height: 100px;width: 100%;vertical-align: top;}
+.detail_tit{height: 35px;line-height: 35px;padding-left: 20px;}
+
+
+
+/*详情*/
+/*.detail_img img {vertical-align: top;min-height: 200px; background:url(http://static.iuniimg.com/img/mobile/loading.gif) 50% 50% no-repeat;}*/
+
+
+
